@@ -1,97 +1,75 @@
-
-styles.css
 /* Global Styles */
-
 body {
-
-font-size: 20px;
-
-margin-left: 10em;
-
-margin-right: 10em;
-
+    font-size: 20px;
+    margin: 0 auto; /* Centers content */
+    max-width: 1200px; /* Prevents content from stretching too wide */
+    text-align: center; /* Ensures all text is centered */
 }
 
 /* Heading Styles */
-
 h1 {
-
-color: coral;
-
+    color: coral;
+    text-align: left; /* Ensures it’s aligned to the left */
+    margin-left: 0; /* Prevents extra spacing */
 }
 
-/* Paragraph Styles */
 
-#para1 {
-
-color: firebrick;
-
-background-color: beige;
-
+h2, #para1 {
+    text-align: center;
+    width: 100%;
 }
 
-#para2 {
-
-color: darkorchid;
-
-margin-top: 50px;
-
+/* Socials Styling */
+ol {
+    list-style-type: none; /* Removes bullet points */
+    padding: 0;
 }
 
-/* Song List Styles */
-
-ul li {
-
-font-style: italic;
-
+ol li a {
+    font-size: 20px; /* Makes the text bigger */
+    text-decoration: none; /* Removes the underline */
+    color: black; /* Changes text color */
+    font-weight: bold; /* Makes it bold */
+    display: inline-block; /* Helps with centering */
 }
 
-.rap {
-
-color: blue;
-
+ol li a:hover {
+    color: #A03A2A; /* Changes color when hovered */
+    text-decoration: underline; /* Adds underline on hover */
 }
 
-.pop {
-
-color: green;
-
-}
-
-.classic {
-
-color: purple;
-
-}
-
-.krnb {
-
-color: darkred;
-
+/* Image Container */
+.image-container {
+    display: flex;
+    justify-content: center; /* Centers images */
+    gap: 2em; /* Creates space between images */
+    flex-wrap: wrap; /* Ensures responsiveness */
+    margin-top: 2em;
 }
 
 /* Image Styling */
-
 img {
-
-width: 50%;
-
-height: auto;
-
-float: left;
-
-border-radius: 2em;
-
-margin-right: 3em;
-
+    width: 400px; /* Ensures consistency */
+    height: auto;
+    border-radius: 2em;
 }
 
 /* Paragraph Styling inside Divs */
-
 div > p {
+    font-size: 20px;
+    font-style: italic;
+    color: black;
+}
 
-font-style: italic;
+/* Fun Facts & Socials Section */
+.section {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centers text and images */
+    text-align: center;
+}
 
-color: crimson;
-
+.section h3 {
+    color: brown;
+    margin-bottom: 0.5em;
 }
