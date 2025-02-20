@@ -1,0 +1,97 @@
+
+styles.css
+/* Global Styles */
+
+body {
+
+font-size: 20px;
+
+margin-left: 10em;
+
+margin-right: 10em;
+
+}
+
+/* Heading Styles */
+
+h1 {
+
+color: coral;
+
+}
+
+/* Paragraph Styles */
+
+#para1 {
+
+color: firebrick;
+
+background-color: beige;
+
+}
+
+#para2 {
+
+color: darkorchid;
+
+margin-top: 50px;
+
+}
+
+/* Song List Styles */
+
+ul li {
+
+font-style: italic;
+
+}
+
+.rap {
+
+color: blue;
+
+}
+
+.pop {
+
+color: green;
+
+}
+
+.classic {
+
+color: purple;
+
+}
+
+.krnb {
+
+color: darkred;
+
+}
+
+/* Image Styling */
+
+img {
+
+width: 50%;
+
+height: auto;
+
+float: left;
+
+border-radius: 2em;
+
+margin-right: 3em;
+
+}
+
+/* Paragraph Styling inside Divs */
+
+div > p {
+
+font-style: italic;
+
+color: crimson;
+
+}
