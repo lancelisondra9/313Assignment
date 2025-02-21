@@ -1,0 +1,75 @@
+/* Global Styles */
+body {
+    font-size: 20px;
+    margin: 0 auto; /* Centers content */
+    max-width: 1200px; /* Prevents content from stretching too wide */
+    text-align: center; /* Ensures all text is centered */
+}
+
+/* Heading Styles */
+h1 {
+    color: coral;
+    text-align: left; /* Ensures it’s aligned to the left */
+    margin-left: 0; /* Prevents extra spacing */
+}
+
+
+h2, #para1 {
+    text-align: center;
+    width: 100%;
+}
+
+/* Socials Styling */
+ol {
+    list-style-type: none; /* Removes bullet points */
+    padding: 0;
+}
+
+ol li a {
+    font-size: 20px; /* Makes the text bigger */
+    text-decoration: none; /* Removes the underline */
+    color: black; /* Changes text color */
+    font-weight: bold; /* Makes it bold */
+    display: inline-block; /* Helps with centering */
+}
+
+ol li a:hover {
+    color: #A03A2A; /* Changes color when hovered */
+    text-decoration: underline; /* Adds underline on hover */
+}
+
+/* Image Container */
+.image-container {
+    display: flex;
+    justify-content: center; /* Centers images */
+    gap: 2em; /* Creates space between images */
+    flex-wrap: wrap; /* Ensures responsiveness */
+    margin-top: 2em;
+}
+
+/* Image Styling */
+img {
+    width: 400px; /* Ensures consistency */
+    height: auto;
+    border-radius: 2em;
+}
+
+/* Paragraph Styling inside Divs */
+div > p {
+    font-size: 20px;
+    font-style: italic;
+    color: black;
+}
+
+/* Fun Facts & Socials Section */
+.section {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centers text and images */
+    text-align: center;
+}
+
+.section h3 {
+    color: brown;
+    margin-bottom: 0.5em;
+}
